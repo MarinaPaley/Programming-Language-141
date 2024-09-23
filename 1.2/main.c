@@ -23,6 +23,10 @@ double GetPerimetr(const double length, const double width);
 */
 double Input(void);
 
+/**
+* @brief Точка входа в программу.
+* @return Код ошибки.
+*/
 int main(void)
 {
 	setlocale(LC_ALL, "Russian");
